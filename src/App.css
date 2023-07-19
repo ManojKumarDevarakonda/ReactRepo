@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #000000;
+  color: #ffffff;
+}
+.main-header{
+  font-family: 'Montserrat', sans-serif;
+}
+.create-form label{
+  color: whitesmoke !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px !important;
+}
+.main{
+  display: flex;
+
+  height: 50vh;
+  background-color: #212121;
+  color: whitesmoke;
+  flex-direction: column;
+}
+table{
+  width: 100%;
+  text-align:start;
+}
+th{
+  text-align:start;
+}
+/* tbody{
+  text-align: center;
+} */
+.name_feild{
+  width: 269px;
+  height: 30px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+.name_feild:focus{
+  outline: transparent;
+}
+.edit_name_feild{
+  width: 269px;
+  height: 30px;
+  border: 1px solid #5e48f0;
+  border-radius: 3px;
+  margin-top: 5px;
+}
+
+.add_button{
+  width: 70px;
+  height: 30px;
+  margin-top: 11px;
+  background-color: #5e48f0;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.save_button{
+  width: 70px;
+  height: 30px;
+  margin-top: 11px;
+  background-color: #00ff04;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.edit_button{
+  width: 70px;
+  height: 30px;
+  margin-top: 11px;
+  background-color: #ccf805;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.delete_button{
+  width: 70px;
+  height: 30px;
+  margin-top: 11px;
+  background-color: #e73908;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  cursor: pointer;
+}
